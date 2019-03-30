@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node" : "11.9.0",
+    "npm": "6.5.0"
   },
+  "scripts": {
+    "start": "node index.js"
+     },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acvan11/Node-with-React.git"
